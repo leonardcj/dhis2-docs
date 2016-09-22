@@ -369,9 +369,9 @@ https://www.google.com/permissions/trademark/trademark-list.html
   </section>
   <section xml:id="using_gis_boundary_layer">
     <title>Manage boundary layer</title>
-    <para>The purpose of the boundary layer is to display the boundaries and coordinates in the
-      system. No data will be shown. This layer is useful if you are offline and thus have no
-      background map. </para>
+    <para>The aim of the boundary layer is to display the boundaries and coordinates in the system.
+      No data will be shown. This layer is useful if you are offline and thus have no background
+      map. </para>
     <screenshot>
       <title>Boundary layer</title>
       <mediaobject>
