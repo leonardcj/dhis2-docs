@@ -6,35 +6,34 @@
     xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xhtml="http://www.w3.org/1999/xhtml"
     xmlns:svg="http://www.w3.org/2000/svg" xmlns:mth="http://www.w3.org/1998/Math/MathML"
     xmlns:db="http://docbook.org/ns/docbook">
-    <title>Manage relationship
-        <?oxy_comment_start author="cecilia" timestamp="20160926T153609+0200" comment="Add conceptual info about relationship types."?>types<?oxy_comment_end?></title>
+    <title>Manage tracked entity attribute groups</title>
     <para></para>
     <section>
-        <title>Create a relation ship type</title>
+        <title>Create a tracked entity attribute group</title>
         <orderedlist>
             <listitem>
                 <para>Open the <emphasis role="bold">Maintenance</emphasis> app and click <emphasis
-                        role="bold">Tracker</emphasis> > <emphasis role="bold">Relationship
-                        type</emphasis>.</para>
+                        role="bold">Tracker</emphasis> > <emphasis role="bold">Tracked entity
+                        <?oxy_comment_start author="cecilia" timestamp="20160926T155419+0200" comment="Before release. verify that UI has changed as according to discussion with SME."?>attribute<?oxy_comment_end?>
+                        group</emphasis>.</para>
             </listitem>
             <listitem>
-                <para>Click the add button.</para>
+                <para>Click the add
+                    <?oxy_comment_start author="cecilia" timestamp="20160510T112410+0200" comment="Do not refer to the FAB as an icon, according to MS Manual of Style." flag="done"?>button<?oxy_comment_end?>.</para>
             </listitem>
             <listitem>
-                <para>Type a <emphasis role="bold">Name</emphasis> of the relationship type.</para>
+                <para>In the <emphasis role="bold">Name</emphasis> field, type the tracked entity
+                    attribute name.</para>
             </listitem>
             <listitem>
-                <para>(Optional) Assign a <emphasis role="bold">Code</emphasis>.</para>
+                <para>(Optional) In the <emphasis role="bold">Code</emphasis> field, assign a
+                    code.</para>
             </listitem>
             <listitem>
-                <para>In the <emphasis role="bold">A is to B</emphasis> field, enter a description
-                    of which relationship tracked entity A has to tracked entity B, for example
-                    mother.</para>
+                <para>(Optional) Type a <emphasis role="bold">Description</emphasis>.</para>
             </listitem>
             <listitem>
-                <para>In the <emphasis role="bold">B is to A</emphasis> field, enter a description
-                    of which relationship tracked entity B has to tracked entity A, for example
-                    child.</para>
+                <para>Assign <emphasis role="bold">Attributes</emphasis>.</para>
             </listitem>
             <listitem>
                 <para>Click <emphasis role="bold">Save</emphasis>.</para>
