@@ -6,14 +6,18 @@
     xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xhtml="http://www.w3.org/1999/xhtml"
     xmlns:svg="http://www.w3.org/2000/svg" xmlns:mth="http://www.w3.org/1998/Math/MathML"
     xmlns:db="http://docbook.org/ns/docbook"
-    xml:id="manage_ext_maplayer">
-    <title>Manage external map layers</title>
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../analysis/gis/c_ext_map_layers.xml" encoding="UTF-8"/>
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="t_extmaplayer_create.xml" encoding="UTF-8"/>
+    xml:id="manage_program_metadata">
+    <title>[Review ongoing] Manage program        
+        <?oxy_comment_start author="cecilia" timestamp="20160926T105910+0200" comment="Is there a workflow for this?"?>metadata<?oxy_comment_end?></title>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="c_mtn_tracker.xml" encoding="UTF-8"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="t_te_attribute_create.xml" encoding="UTF-8"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="t_te_attributegr_create.xml" encoding="UTF-8"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="t_reltype_create.xml" encoding="UTF-8"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="t_te_create.xml" encoding="UTF-8"/>
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../common/mtn_edit.xml" encoding="UTF-8"/>
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../common/mtn_clone.xml" encoding="UTF-8"/>
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../common/mtn_delete.xml" encoding="UTF-8"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../common/mtn_share.xml" encoding="UTF-8"/>
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../common/mtn_display.xml" encoding="UTF-8"/>
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../common/mtn_translate.xml" encoding="UTF-8"/>
 </section>
-    
