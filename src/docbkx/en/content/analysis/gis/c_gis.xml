@@ -8,16 +8,29 @@
     xmlns:db="http://docbook.org/ns/docbook"
     xml:id="about_gis">
     <title>About the GIS app</title>
+<<<<<<< HEAD
     <para>With the GIS app you can overlay multiple layers and choose among different base maps. You
         can create thematic maps of areas and points, view facilities based on classifications, and
         visualize catchment areas for each facility. You can add labels to areas and points, and
         search and filter using various criteria. You can move points and set locations on the fly.
         Maps can be saved as favorites and shared with other people.</para>
+=======
+    <para>With the GIS app you can create thematic mapping of areas and points, view facilities
+        based on classifications, and visualize catchment areas for each facility. You can define
+        custom legend sets and link them to indicators, add labels to areas and points, and you can
+        search and filter using various criteria. With the GIS app you can also overlay multiple
+        layers and use Google Maps as a background layer. You can move points and set locations
+        on-the-fly. Maps can be saved as favorites and shared with other people.</para>
+>>>>>>> refs/remotes/origin/master
     <screenshot>
         <title>Here's an overview of the GIS app workspace</title>
         <mediaobject>
             <imageobject>
+<<<<<<< HEAD
                 <imagedata fileref="resources/images/gis/gis_main.png" align="center" width="90%"
+=======
+                <imagedata fileref="resources/images/gis/gis_main.png" align="center" width="80%"
+>>>>>>> refs/remotes/origin/master
                     format="PNG"/>
             </imageobject>
         </mediaobject>

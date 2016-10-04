@@ -1010,7 +1010,11 @@ Also, data set not written correctly. Ticket submitted."?>layer<?oxy_comment_end
     <screenshot>
       <mediaobject>
         <imageobject>
+<<<<<<< HEAD
           <imagedata width="50%" fileref="resources/images/gis/gis-latitude-longitude.png"
+=======
+          <imagedata width="60%" fileref="resources/images/gis/gis-latitude-longitude.png"
+>>>>>>> refs/remotes/origin/master
             format="PNG" align="center"/>
         </imageobject>
       </mediaobject>
