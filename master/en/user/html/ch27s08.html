@@ -1,0 +1,63 @@
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+   <title>27.8.&nbsp;Manage program notifications</title><link rel="stylesheet" type="text/css" href="resources/css/docbook_bsd.css"><meta name="generator" content="DocBook XSL Stylesheets V1.79.1"><link rel="home" href="dhis2_user_manual_en.html" title="DHIS2 User Manual"><link rel="up" href="configure_program.html" title="Chapter&nbsp;27.&nbsp;[Work in progress] Configuring tracker programs"><link rel="prev" href="ch27s07.html" title="27.7.&nbsp;[Review ongoing] Manage program metadata"><link rel="next" href="ch27s09.html" title="27.9.&nbsp;Create a custom registration form"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">27.8.&nbsp;Manage program
+        notifications</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch27s07.html">Prev</a>&nbsp;</td><th width="60%" align="center">Chapter&nbsp;27.&nbsp;[Work in progress] Configuring tracker
+        programs</th><td width="20%" align="right">&nbsp;<a accesskey="n" href="ch27s09.html">Next</a></td></tr></table><hr></div><div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="d0e27353"></a>27.8.&nbsp;Manage program
+        notifications</h2></div></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="d0e27360"></a>27.8.1.&nbsp;Schedule automated message
+            reminder</h3></div></div></div><p>This function is used for scheduling message reminders to be automatically sent to
+            enrolled entities XX days before scheduled appointments and/or XX days after a missed
+            visit. When the schedule is started, messages for each entity are generated based on
+            templates defined in each stage at midnight (Ref.<span class="italic"> Add program
+                stage </span>section for defining a template message). On the time, the
+            scheduled messages are sent.</p><p>Click <span class="italic">Start</span> button will enable the scheduled job to
+            run the task. Messages are generated based on templates defined in each stages at
+            mid-night and sent at a pre-determined time or can be run immediately by pressing
+                <span class="italic">Execute</span> button.</p><p>Click <span class="italic">Execute</span> button to generate and send each
+            message for each entity at the time the button clicked.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="d0e27384"></a>27.8.2.&nbsp;Program template reminder</h3></div></div></div><p>This module also supports to define template message reminders which are sent to
+            users/entities for multi events registration and single event with registration
+            programs. To access to this function, click on the program which you would like to
+            define template message reminder and select <span class="italic"> View template
+                reminder message</span> link. </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p><span class="italic">Name</span> - Name of description</p></li><li class="listitem"><p><span class="italic">Send base on</span> - There are three options,
+                    include :</p><p>1) <span class="italic">Days scheduled</span> - The message is sent in
+                    day. </p><p>2) <span class="italic">Complete program</span> - The message is sent
+                    when the program of TEI is completed. </p><p>3) <span class="italic">Program enrollment</span> - The message is sent
+                    when TEI enrols into the program. </p></li><li class="listitem"><p><span class="italic">Date to compare</span> - This is the date used for
+                    calculating the date to send the message. There are 2 options, include - </p><p>1) Enrollment Date</p><p>2) Incident Date </p></li><li class="listitem"><p><span class="italic">Send message X days before/after scheduled date
+                    </span>- The number of days needs to calculate the date for sending the
+                    message by scheduled. Just enter a number for this field in the case <span class="italic">Send base on</span> with value as Days schedule.</p></li><li class="listitem"><p><span class="italic">Recipients</span> - Specify the kind of persons
+                    who will receive the message. There are 5 options, include - </p><p>1) Tracked entity instance (SMS only)</p><p>2) Attribute users </p><p>3) Organisation unit phone number (SMS only)</p><p>4) All users in organisation unit</p><p>5) User group</p></li><li class="listitem"><p><span class="italic">User group</span> - Select one user group if
+                        <span class="italic">Recipients</span> field is selected as User
+                    group.</p></li><li class="listitem"><p><span class="italic">Message type</span> - This is the types of
+                    message. There are 3 options, include - </p><p>1) Direct SMS - This kind of SMS message is linked to the program of an entity
+                    after sending to recipients.</p><p>2) Message</p><p>3) Both</p></li><li class="listitem"><p><span class="italic">Parameters</span> - Provide parameters which are
+                    used for generating a message for each entity. The parameters include <span class="italic">entity name</span>,<span class="italic"> program
+                        name</span>, <span class="italic">incident date, days since incident
+                        date, enrollment date, days since enrollment date, organisation unit
+                        name</span>. Double-click on an option to insert it into template
+                    message field below. </p></li><li class="listitem"><p><span class="italic">Message</span> - Content of template message. E.g.
+                    Dear {patient-name}, please come to your appointment at {due-date}. </p></li></ul></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="d0e27488"></a>27.8.3.&nbsp;Program stage template reminder</h3></div></div></div><p>This module also supports to define template message reminders which are sent to
+            users/entities. To access to this function, click on the program stage which you would
+            like to define template message reminder and select <span class="italic"> View
+                template reminder message</span> link. </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p><span class="italic">Name</span> - Name of description</p></li><li class="listitem"><p><span class="italic">Send base on</span> - There are two options,
+                    include :</p><p>1) <span class="italic">Days scheduled</span> - The message is sent in
+                    day. </p><p>2) <span class="italic">Complete event </span>- The message is sent
+                    when the event of an entity is completed.</p></li><li class="listitem"><p><span class="italic">Date to compare</span> - This is the date used for
+                    calculating the date to send the message. There are 2 options, include:</p><p>1) Enrollment Date</p><p>2) Incident Date </p></li><li class="listitem"><p><span class="italic">Send message X days before/after scheduled date
+                    </span>- The number of days needs to calculate the date for sending the
+                    message by scheduled. Just enter a number for this field in the case <span class="italic">Send base on</span> with value as Days schedule.</p></li><li class="listitem"><p><span class="italic">Recipients</span> - Specify the kind of persons
+                    who will receive the message. There are 5 options, include - </p><p>1) Tracked entity instance (SMS only)</p><p>2) Attribute users </p><p>3) Organisation unit phone number (SMS only)</p><p>4) All users in organisation unit</p><p>5) User group</p></li><li class="listitem"><p><span class="italic">User group</span> - Select one user group if
+                        <span class="italic">Recipients</span> field is selected as User
+                    group.</p></li><li class="listitem"><p><span class="italic">Message type</span> - This is the types of
+                    message. There are 3 options, include - </p><p>1) Direct SMS - This kind of SMS message is linked to the program of an entity
+                    after sending to recipients.</p><p>2) Message</p><p>3) Both</p></li><li class="listitem"><p><span class="italic">Parameters</span> - Provide parameters which are
+                    used for generating a message for each entity. The parameters include <span class="italic">entity name</span>,<span class="italic"> program
+                        name</span>, <span class="italic">incident date, days since incident
+                        date, enrollment date, days since enrollment date, organisation unit
+                        name</span>. Double-click on an option to insert it into template
+                    message field below. </p></li><li class="listitem"><p><span class="italic">Message</span> - Content of template message. E.g.
+                    Dear {patient-name}, please come to your appointment at {due-date}. </p></li></ul></div><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><table border="0" summary="Note"><tr><td rowspan="2" align="center" valign="top" width="25"><img alt="[Note]" src="resources/images/admon/note.png"></td><th align="left">Note</th></tr><tr><td align="left" valign="top"><p>A custom data entry form can have data elements which belong to other stages of
+                the program. This form can be reused for the stages of program. When the form is
+                opened to enter data, the data values which belong to other events will be displayed
+                if any, but user can not modify them. Just only data values with data elements which
+                belong to the stage selected are editable.</p></td></tr></table></div></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch27s07.html">Prev</a>&nbsp;</td><td width="20%" align="center"><a accesskey="u" href="configure_program.html">Up</a></td><td width="40%" align="right">&nbsp;<a accesskey="n" href="ch27s09.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">27.7.&nbsp;[Review ongoing] Manage program        
+        metadata&nbsp;</td><td width="20%" align="center"><a accesskey="h" href="dhis2_user_manual_en.html">Home</a></td><td width="40%" align="right" valign="top">&nbsp;27.9.&nbsp;Create a custom registration form</td></tr></table></div></body></html>
